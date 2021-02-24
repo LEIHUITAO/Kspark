@@ -35,13 +35,15 @@ APP_SRC += emr_i2c.c
 APP_SRC += Count.c
 APP_SRC += filemode.c
 APP_SRC += crc32.c
-#APP_SRC += ./zlib/compress.c
-#APP_SRC += ./zlib/adler32.c
-#APP_SRC += ./zlib/trees.c
-#APP_SRC += ./zlib/inftrees.c
-#APP_SRC += ./zlib/inflate.c
-#APP_SRC += ./zlib/inffast.c
-#APP_SRC += ./zlib/uncompr.c
+
+APP_SRC += ./zlib/compress.c
+APP_SRC += ./zlib/adler32.c
+APP_SRC += ./zlib/trees.c
+APP_SRC += ./zlib/inftrees.c
+APP_SRC += ./zlib/inflate.c
+APP_SRC += ./zlib/inffast.c
+APP_SRC += ./zlib/uncompr.c
+
 APP_SRC += hci_ble_password.c
 APP_SRC += Hallswitch.c
 APP_SRC += RTC.c
@@ -62,6 +64,7 @@ APP_SRC += link_pairing.c
 APP_SRC += ./time/date_time.c
 APP_SRC += ./debug/app_debug.c
 APP_SRC += ./hci/hci_control.c
+APP_SRC += ./power_mode/low_power_mode.c
 ########################################################################
 # Component(s) needed
 ########################################################################
