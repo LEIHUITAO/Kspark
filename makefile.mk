@@ -65,6 +65,7 @@ APP_SRC += ./time/date_time.c
 APP_SRC += ./debug/app_debug.c
 APP_SRC += ./hci/hci_control.c
 APP_SRC += ./power_mode/low_power_mode.c
+APP_SRC += FlashBadBlockManagement.c
 ########################################################################
 # Component(s) needed
 ########################################################################
