@@ -65,6 +65,9 @@ APP_SRC += ./time/date_time.c
 APP_SRC += ./debug/app_debug.c
 APP_SRC += ./hci/hci_control.c
 APP_SRC += ./power_mode/low_power_mode.c
+APP_SRC += ./user/battery_voltage_management.c
+APP_SRC += ./user/hanwang_uart_handle.c
+APP_SRC += ./user/emr_info.c
 ########################################################################
 # Component(s) needed
 ########################################################################
